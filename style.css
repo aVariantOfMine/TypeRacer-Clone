@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /*font-family: fantasy;*/
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+li{
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    background-color: #005894;
+    height: 81px;
+    color: white;
+}
+#title{
+    height: 38px;
+    background-image: url(images/logo.svg);
+    background-size: 44px;
+    background-repeat: no-repeat;
+    background-position: 80px 0px;
+    padding-right: 8%;
+    padding-left: 10%;
+    font-size: 24px;
+}
+.details{
+    margin-left: 15%;
+    background-color: #00befd;
+    height: 81px;
+    width: 23%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nothing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    background-color: #fafafa;
+    border: 1px solid #ededed;
+    border-radius: 10px;
+    height: 70px;
+    width: 80%;
+    margin-left: 124px;
+    margin-top: 20px;
+    color: bisque;
+}
+.mainbox{
+    margin-left: 28%;
+    margin-top: 10px;
+}
+.title1{
+    color: #005894;
+    font-size: 20px;
+}
+.title2{
+    font-size: 12px;
+    color: #005894b8;
+}
+.racesec{
+    height: 12em;
+    width: 58%;
+    border-radius: 20px;
+    border: 1px solid #d9d9d9;
+    margin-top: 12px;
+    background-size: 108%;
+    background-position: -20px 0px;
+    background-image: url(https://play.typeracer.com/redesign/images/themes/base/banner.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+.getready{
+    margin-left: 12px;
+    color: #565656d9;
+    margin-bottom: 8px;
+}
+.btn{
+    color: white;
+    font-size:  13px;
+    margin-bottom: 68px;
+    margin-left: 12px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    background-image: url(images/start.jpg);
+    background-repeat: no-repeat;
+    background-size: 14px;
+}
+.enterrace{
+    background-color: #4caf50;
+    background-position: 146px 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 168px;
+}
+.enterrace:hover{
+    background-color: #419945;
+}
+.downsec{
+    display: flex;
+}
+.practice{
+    background-image: url(images/practicerace.svg);
+    background-repeat: no-repeat;
+    background-position: 200px 27px;
+    background-size: 70px;
+    margin-top: 10px;
+    height: 90px;
+    width: 272px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    border: 1px solid #d9d9d9;
+    color: #787878ed;
+    display: flex;
+    flex-direction: column;
+}
+.ptitle{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 14px;
+    margin-bottom: 4px;
+}
+.practicebtn{
+    background-color: #005894;
+    background-position: 128px 10px;
+    margin-bottom: 2px;
+    height: 35px;
+    width: 146px;
+}
+.practicebtn:hover{
+    background-color: #003f6a;
+}
+.raceyourfriends{
+    background-image: url(images/raceyourfriends.svg);
+    background-size: 70px;
+    background-position: 203px 23px;
+    margin-left: 24px;
+}
